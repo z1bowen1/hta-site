@@ -1,4 +1,7 @@
 @import 'var';
+@import 'mixins';
+
+
 
 body {
     font-size: 62.5%;
@@ -10,13 +13,11 @@ body {
     color: $dark-grey;
 }
 h1 {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    @include reset;
     width: 163px;
 }
 h2 {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 25px 0px;
+    @include reset;
     font-family: 'Overpass', sans-serif;
     font-size: 4.4em;
     font-weight: 600;
@@ -24,26 +25,22 @@ h2 {
     line-height: 55px
 }
 h3 {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    @include reset;
     font-family: 'Roboto', sans-serif;
     font-size: 1.8em;
     font-weight: 400;
 }
 p {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    @include reset;
     font-size: 1.3em;
     margin-bottom: 20px
 }
 ul {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    @include reset;
     list-style-type: none;
 }
 li {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    @include reset;
     font-size: 1.3em;
     list-style: none;
 }
@@ -56,7 +53,7 @@ img {
 }
 header {
     margin-bottom: 70px;
-    background-image: url("pics/car-headlight.png");
+    background-image: url("../pics/car-headlixght.png");
     height: 281px;
     img {
         width: 150px;
