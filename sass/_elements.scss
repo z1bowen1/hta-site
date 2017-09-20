@@ -54,7 +54,8 @@ img {
 header {
     margin-bottom: 70px;
     background-image: url("../pics/car-headlight.png");
-    height: 281px;
+    background-repeat: no-repeat;
+    height: 277px;
     img {
         width: 150px;
         height: 150px;
@@ -64,6 +65,7 @@ header {
         font-size: 1.8em;
         margin-left: 35px;
         text-shadow: 0px 5px 3px black;
+        color: white;
     }
 }
 main section {
