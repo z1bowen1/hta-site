@@ -1,0 +1,30 @@
+@import 'var';
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.col {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.contact {
+    text-align: left;
+}
+.services {
+  li {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  img { max-width: 100%; }
+}
